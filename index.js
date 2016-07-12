@@ -10,6 +10,12 @@
 * It should be a String.
 **/
 
+var firstName = "jack";
+console.log(firstName);
+var lastName = "daniels";
+console.log(lastName);
+var birthPlace = "Texas";
+console.log(birthPlace);
 
 
 /**
@@ -21,6 +27,9 @@
 *
 * Their values should be a Number
 **/
+
+var favoriteNumber = 7;
+console.log(favoriteNumber);
 
 
 
@@ -133,7 +142,14 @@
 * Store the return value to a variable named `jumpResult` and use console.log to inspect the value which was returned by your function
 **/
 
+function jump (height){
+	//instructions
+	return "You jumped " + height + " ft high";
+}
+jump();//invoking the function 
 
+var joke = jump (10); //changeable
+console.log(joke);
 
 /**
 * #7b
@@ -144,4 +160,25 @@
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
+
+function cook (ingredient1, ingredient2, recipe){
+	
+	return ingredient1 + " and " + ingredient2 + " make a " + recipe + " ! ";
+
+}
+cook (); 
+
+var whatWeEat = cook("jalepano","cheese","nachos");
+console.log(whatWeEat);
+
+
+
+
+
+
+
+
+
+
+
 
